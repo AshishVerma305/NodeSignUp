@@ -1,0 +1,8 @@
+{
+    "development": {
+        "PORT": 8000,
+        "MONGODB_URI": "mongodb://localhost:27017/Dummy_DB",
+        "JWT_SECRET": "eedrffdcc98",
+        "JWT_EXP": "10m"
+    }
+}
