@@ -63,6 +63,7 @@ module.exports.authenticate = (req, res, next) => {
 }
 
 module.exports.userProfile = (req, res, next) =>{
+    console.log("req------------", req._id);
     User.findOne({ _id: req._id },
         (err, user) => {
             if (!user)
